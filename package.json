@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "sequelize": "^4.38.0",
+    "should": "^13.2.1",
+    "sqlite3": "^4.0.2",
+    "supertest": "^3.1.0"
+  },
+  "devDependencies": {
+    "macha": "0.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test node ./node_modules/mocha/bin/mocha -w",
+    "start": "node bin/www.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
